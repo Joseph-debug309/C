@@ -2,6 +2,7 @@
 #include <math.h>
 int main()
     {
+        // Solves a quadratic equation
         int a,b,c;
         float d,x1,x2;
         printf("enter value a");
@@ -10,6 +11,7 @@ int main()
         scanf("%i",&b);
         printf("enter value c");
         scanf("%i",&c);
+        // looking for the discriminant
         d=pow(b,2)-(4*a*c);
         if (d<0)
         {
